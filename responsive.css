@@ -1,0 +1,39 @@
+@media (min-width:400px) and (max-width: 450px){
+    .conteudoCentral{
+        flex-direction: column-reverse;
+    }
+
+    .tituloPrincipal{
+        width: 400px;
+        margin-left: 100px;
+        font-size: 25px;
+        
+    }
+
+    .fotoPerfil{
+        width: 250px;
+    }
+
+    .descricao{
+        margin-left: 100px;
+        width: 400px;
+    }
+
+    .botoes{
+        padding-top: 10px;
+        margin-left: 5px;
+        justify-content: center;
+    }
+
+    .linkBotoes{
+        width: 100px;
+        margin-right: 30px;
+    }
+
+    .logoWhatsapp{
+        margin-left: 330px;
+        width: 100px;
+        height: 100px;
+        padding-bottom: 187px;
+    }
+}
