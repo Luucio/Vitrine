@@ -7,7 +7,6 @@ body{
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
-    height: 100%;
 }
 
 .fraseDestaque{
@@ -19,11 +18,11 @@ body{
     box-sizing: border-box;
     align-items: center;
     justify-content: space-between;
-    margin: 10% 15%;
+    padding: 6% 15%;
 }
 
 .conteudoCentral__conteudo{
-    width: 615px;
+    width: 500px;
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
@@ -97,4 +96,9 @@ body{
 .botaoWhatsapp{
     display: flex;
     box-sizing: border-box;
+}
+
+.assinatura{
+   display: flex;
+   margin-left: 650px;
 }
