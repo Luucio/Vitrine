@@ -1,16 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100..900&display=swap');
 
 
+:root{
+    --cor_primaria: #050C9C;
+    --cor_secundaria: #F6F6F6;
+    --cor_terciaria: #3ABEF9;
+    --cor_hover: #3572EF;
+
+    --fonte_primaria: "Krona One", sans-serif;
+    --fonte_secundaria: "Montserrat", sans-serif;
+}  
+
+/* :root{
+    --cor_primaria: #000000;
+    --cor_secundaria: #F6F6F6;
+    --cor_terciaria:#22D4FD;
+    --cor_hover: #2222;
+
+    --fonte_primaria: "Krona One", sans-serif;
+    --fonte_secundaria: "Montserrat", sans-serif;
+} */
+
 
 
 body{
     box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--cor_primaria);
+    color: var(--cor_secundaria);
 }
 
 .fraseDestaque{
-    color: #22D4FD;
+    color: var(--cor_terciaria);
 }
 
 .conteudoCentral{
@@ -30,41 +50,41 @@ body{
 }
 
 .tituloPrincipal{
-    font-size: 36px;
-    font-family: "Krona One", sans-serif;
+    font-size: 30px;
+    font-family: var(--fonte_primaria);
 }
 
 .descricao{
     font-size: 24px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte_secundaria);
     margin-top: 1px;
 }
 .linkBotoes{
     display: flex;
     justify-content: center;
     gap: 16px;
-    background-color: #000000;
+    background-color: var(--cor_primaria);
     width: 378px;
     text-align: center;
-    border: 1px solid #22D4FD;
+    border: 1px solid var(--cor_terciaria);
     border-radius: 8px;
     padding: 21.5px 0px;
     text-decoration: none;
-    color: white;
+    color: var(--cor_secundaria);
     font-size: 15px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte_secundaria);
     font-weight: 600;
     transition: transform 0.3s ease;
     transition: box-shadow 0.3s ease;
 }
 
 .linkBotoes:hover{
-    background-color: #222;
-    box-shadow: 2px 2px  10px rgb(0, 195, 255);
+    background-color: var(--cor_hover);
+    box-shadow: 2px 2px  10px var(--cor_hover);
 }
 
 .subtitulo{
-    font-family: "Krona One", sans-serif;
+    font-family: var(--fonte_primaria);
     font-weight: 400;
     font-size: 24px;
 }
@@ -103,15 +123,15 @@ body{
 }
 
 .cabecalho__menu__link{
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte_secundaria);
     font-size: 24px;
-    color: #22D4FD;
+    color: var(--cor_terciaria);
     font-weight: 600;
     text-decoration: none;
     transition: 0.25ms;
 }
 .cabecalho__menu__link:hover{
-    color: #F6F6F6;
+    color: var(--cor_secundaria);
 }
 
 .cabecalho{
