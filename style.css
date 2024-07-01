@@ -141,5 +141,37 @@ body{
 .cabecalho__menu{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 100px;
+}
+
+.conteudoCentral__conteudo__sobreMim{
+    color: var(--cor_terciaria);
+}
+
+.descricao__SobreMim{
+    text-align: justify;
+    font-family: var(--fonte_secundaria);
+    width: 500px;
+    font-size: 18px;
+}
+
+.porqueMe{
+
+    color: var(--cor_terciaria);
+    margin-bottom: 1px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.skills__opcoes{
+    font-family: var(--fonte_secundaria);
+    font-size: 18px;  
+}
+
+.skill__opcoes__tituloDestaque{
+    color: var(--cor_secundaria);
 }
