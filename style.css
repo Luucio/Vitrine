@@ -175,3 +175,16 @@ body{
 .skill__opcoes__tituloDestaque{
     color: var(--cor_secundaria);
 }
+
+.fotoDesenvolvendo{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.fotoDesenvolvendo__foto{
+    width: 500px;
+    border-radius: 9%;
+}
+
