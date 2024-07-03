@@ -42,7 +42,7 @@ body{
 }
 
 .conteudoCentral__conteudo{
-    width: 500px;
+    width: 49%;
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
@@ -64,7 +64,7 @@ body{
     justify-content: center;
     gap: 16px;
     background-color: var(--cor_primaria);
-    width: 378px;
+    width: 59%;
     text-align: center;
     border: 1px solid var(--cor_terciaria);
     border-radius: 8px;
@@ -151,7 +151,7 @@ body{
 .descricao__SobreMim{
     text-align: justify;
     font-family: var(--fonte_secundaria);
-    width: 500px;
+    width: 90%;
     font-size: 1.12rem;
 }
 
