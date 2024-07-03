@@ -50,12 +50,12 @@ body{
 }
 
 .tituloPrincipal{
-    font-size: 30px;
+    font-size: 1.87rem;
     font-family: var(--fonte_primaria);
 }
 
 .descricao{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte_secundaria);
     margin-top: 1px;
 }
@@ -71,7 +71,7 @@ body{
     padding: 21.5px 0px;
     text-decoration: none;
     color: var(--cor_secundaria);
-    font-size: 15px;
+    font-size: 0.93rem;
     font-family: var(--fonte_secundaria);
     font-weight: 600;
     transition: transform 0.3s ease;
@@ -86,7 +86,7 @@ body{
 .subtitulo{
     font-family: var(--fonte_primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .botoes{
@@ -124,7 +124,7 @@ body{
 
 .cabecalho__menu__link{
     font-family: var(--fonte_secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--cor_terciaria);
     font-weight: 600;
     text-decoration: none;
@@ -152,7 +152,7 @@ body{
     text-align: justify;
     font-family: var(--fonte_secundaria);
     width: 500px;
-    font-size: 18px;
+    font-size: 1.12rem;
 }
 
 .porqueMe{
@@ -169,7 +169,7 @@ body{
 
 .skills__opcoes{
     font-family: var(--fonte_secundaria);
-    font-size: 18px;  
+    font-size: 1.12rem;  
 }
 
 .skill__opcoes__tituloDestaque{
@@ -180,7 +180,7 @@ body{
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
-    gap: 200px;
+    gap: 300px;
 }
 
 .fotoDesenvolvendo__foto{
