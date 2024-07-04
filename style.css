@@ -213,6 +213,7 @@ body{
 
 @media (max-width: 1200px){
     .conteudoCentral{
+        width: auto;
         flex-direction: column-reverse;
         flex-wrap: wrap;
     }
@@ -237,4 +238,28 @@ body{
     .descricao__SobreMim{
         text-align: left;
     }
+}
+
+
+@media  (min-width:505px) and (max-width:1197px){
+    .conteudoCentral__conteudo{
+        width: auto;
+        padding: 5px;
+    }
+}
+
+@media (max-width:504px){
+    .conteudoCentral__conteudo{
+        width: auto;
+    }
+}
+
+@media (max-width:490px){
+    .subtitulo{
+        text-align: center;
+    }
+}
+
+@media (max-width: 412px){
+    
 }
