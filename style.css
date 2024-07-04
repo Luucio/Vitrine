@@ -125,13 +125,23 @@ body{
 .cabecalho__menu__link{
     font-family: var(--fonte_secundaria);
     font-size: 1.5rem;
-    color: var(--cor_terciaria);
+    color: var(--cor_secundaria);
     font-weight: 600;
     text-decoration: none;
     transition: 0.25ms;
+    border: solid 1px;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: var(--cor_secundaria);
+    transition: 7ms;
 }
+
+    
+
 .cabecalho__menu__link:hover{
-    color: var(--cor_secundaria);
+    transform: scale(1.1);
+    box-shadow: 1px 1px 50px -3px;
+    background-color: var(--cor_hover);
 }
 
 .cabecalho{
