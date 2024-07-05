@@ -287,7 +287,7 @@ body{
 @media( max-width:446px){
 
     .fotoPerfil{
-        width: 300px;
+        width: 100%;
     }
 
     .fotoDesenvolvendo__foto{
@@ -298,12 +298,14 @@ body{
         margin-left: 78%;
     }
 
-    .conteudoCentral__conteudo{
-        
-    }
-
     .botoes{
         flex-direction: column;
         justify-content: center;
+    }
+}
+
+@media (min-width: 300px) and (max-width:1200px){
+.fotoPerfil{
+        width: 100%;
     }
 }
