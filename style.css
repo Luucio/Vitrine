@@ -248,6 +248,10 @@ body{
     .logoWhatsapp{
         margin-left: 88%;
     }
+
+    .fotoDesenvolvendo__foto{
+        width: 100%;
+    }
 }
 
 @media (max-width:760px){
@@ -281,15 +285,25 @@ body{
 }
 
 @media( max-width:446px){
+
+    .fotoPerfil{
+        width: 300px;
+    }
+
+    .fotoDesenvolvendo__foto{
+        width: 100%;
+    }
+
     .logoWhatsapp{
         margin-left: 78%;
     }
 
     .conteudoCentral__conteudo{
-        width: auto;
+        
     }
 
     .botoes{
-        width: auto;
+        flex-direction: column;
+        justify-content: center;
     }
 }
