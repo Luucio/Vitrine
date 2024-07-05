@@ -304,8 +304,8 @@ body{
     }
 }
 
-@media (min-width: 200px) and (max-width:1200px){
-.fotoPerfil{
+@media( max-width:474px){
+    .fotoPerfil{
         width: 100%;
     }
 }
