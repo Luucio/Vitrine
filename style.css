@@ -95,7 +95,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     gap: 32px;
 }
 
@@ -238,15 +237,30 @@ body{
     .descricao__SobreMim{
         text-align: left;
     }
-}
+} 
 
-
-@media  (min-width:505px) and (max-width:1197px){
+@media  (min-width:505px) and (max-width:1200px){
     .conteudoCentral__conteudo{
         width: auto;
         padding: 5px;
     }
+
+    .logoWhatsapp{
+        margin-left: 88%;
+    }
 }
+
+@media (max-width:760px){
+    .logoWhatsapp{
+        margin-left: 85%;
+    }
+} 
+
+@media (max-width:608px){
+    .logoWhatsapp{
+        margin-left: 80%;
+    }
+} 
 
 @media (max-width:504px){
     .conteudoCentral__conteudo{
@@ -260,6 +274,22 @@ body{
     }
 }
 
-@media (max-width: 412px){
-    
+@media (max-width: 510px){
+    .conteudoCentral__conteudo{
+        width: auto;
+    }
+}
+
+@media( max-width:446px){
+    .logoWhatsapp{
+        margin-left: 78%;
+    }
+
+    .conteudoCentral__conteudo{
+        width: auto;
+    }
+
+    .botoes{
+        width: auto;
+    }
 }
