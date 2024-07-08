@@ -199,12 +199,6 @@ body{
     border-radius: 9%;
 }
 
-.fotoDesenvolvendo__foto2{
-    display: flex;
-    box-sizing: border-box;
-    justify-content: center;
-}
-
 .fotoDesenvolvendo__foto3{
     width: 500px;
     border-radius: 9%;
@@ -311,5 +305,13 @@ body{
 
     .logoWhatsapp{
         margin-left: 75%;
+    }
+
+    .conteudoCentral__conteudo{
+        width: auto;
+    }
+
+    .descricao{
+        text-align:unset;
     }
 }
