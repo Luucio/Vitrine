@@ -40,6 +40,10 @@ Neste projeto, coloquei em prática diversas tecnologias e boas práticas de des
 - **Meta Dados e Meta Tags**: Configurar meta dados e meta tags para otimizar a página para SEO.
 - **Responsividade e Media Queries**: Garantir que a página seja responsiva em diferentes dispositivos.
 - **Git e GitHub**: Utilizar controle de versão com Git e GitHub para gerenciar o projeto.
+  - **Git Bash**: Utilizado para execução de comandos Git no terminal.
+  - **Branches**: Criar e gerenciar diferentes branches para desenvolvimento de novas features e correções de bugs.
+  - **GitHub Pages**: Hospedar o projeto e disponibilizar uma versão live para visualização.
+  - **Pull Requests**: Colaborar e integrar mudanças no código de forma organizada.
 - **DevTools**: Usar as DevTools dos navegadores para depuração e otimização do código.
 - **Figma**: Criar protótipos e designs no Figma antes de implementar no código.
 
