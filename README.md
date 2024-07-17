@@ -9,7 +9,7 @@ Buscando fortalecer minha base nos fundamentos do front-end, desenvolvi o projet
 
 ## 🎯 Objetivo
 
-O objetivo deste projeto é aprimorar minhas habilidades em desenvolvimento front-end, aplicando conhecimentos teóricos na prática e criando uma vitrine profissional que também serve como portfólio.
+O objetivo deste projeto é aprimorar minhas habilidades base em desenvolvimento front-end, aplicando conhecimentos teóricos na prática e criando uma vitrine profissional que também serve como portfólio.
 
 ## 📚 Assuntos Estudados
 
